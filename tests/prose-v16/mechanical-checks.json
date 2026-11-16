@@ -1,0 +1,146 @@
+{
+  "base-r1": {
+    "sha256": "13fce5a8438a78f7d9826e89baa386da5f903b9118e22da526e9bda11f0f69ad",
+    "cases": {
+      "S1": {
+        "han": 679,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "ec7929cb7370ea275f5097552936671c5f17e32490ecb885ac1c3a4771a0f1aa"
+      },
+      "S2": {
+        "han": 627,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "a3d996ac2bf4a6423699ac8bae5823217fc49788739256aa9a53b0b8ecc6056f"
+      },
+      "S3": {
+        "han": 769,
+        "paragraphs": 4,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "8f46fdd33c9227b0a75af31515dc2f112ca9aa62021b235d4ba48516e87feef9"
+      },
+      "S4": {
+        "han": 140,
+        "paragraphs": 1,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "66f39e968b995b187940b6586b7c9ddfa3b71668cdff5fca5ccbfdfa55b17700",
+        "footnote_exact_once": true,
+        "other_paragraph_labels_absent": true,
+        "single_line": true
+      }
+    }
+  },
+  "base-r2": {
+    "sha256": "a388066932333cddd44735d94ece26477b98ddd905ed364846f8b4ca34e492f9",
+    "cases": {
+      "S1": {
+        "han": 691,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "5ee4ca304dffb159eda93ba8d08d651ab0d7697bc03116d131e3f2a908c541d0"
+      },
+      "S2": {
+        "han": 604,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "758ab5a932f87d8b311231bacc7c2390636d143bdb4315b1608b134b055d308d"
+      },
+      "S3": {
+        "han": 744,
+        "paragraphs": 4,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "d33362ef5a76e5b1c4b47cd976d382dae8ba18614c648676b228ee04831f9689"
+      },
+      "S4": {
+        "han": 133,
+        "paragraphs": 1,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "6b06ab6bdd055ff8bed0143200d0154f3125b642809a135033d598c373d0469b",
+        "footnote_exact_once": true,
+        "other_paragraph_labels_absent": true,
+        "single_line": true
+      }
+    }
+  },
+  "style-r1": {
+    "sha256": "cc527825c0a764e023f5d8c0eff3b32d10c2494c4f815b3c3b09b69afc3f6119",
+    "cases": {
+      "S1": {
+        "han": 669,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "5970fd0c16cd12a6addb4bfb5f27828ef81e6a9123a91e117fdf21efa0623f78"
+      },
+      "S2": {
+        "han": 655,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "5a8850a1cdeead7c3019c99ae605ccfe117720df15cf41268c62a5563cde1d92"
+      },
+      "S3": {
+        "han": 761,
+        "paragraphs": 4,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "d652a8eb3a2b827404c470c3526734f0486802605aaadedeb15ee3c764ca1f41"
+      },
+      "S4": {
+        "han": 140,
+        "paragraphs": 1,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "8f8b99ac6385234be8e740663830a1c258465ae2cd74c0230d1a169247b3bc18",
+        "footnote_exact_once": true,
+        "other_paragraph_labels_absent": true,
+        "single_line": true
+      }
+    }
+  },
+  "style-r2": {
+    "sha256": "16700313f99675e9f8f667e4a95315359a31d89d4b96f3f363c848fce90c754a",
+    "cases": {
+      "S1": {
+        "han": 696,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "fa4f6244cae470d10e1e2c2aa81bef64d0a0ab810f68103c05fa795075180823"
+      },
+      "S2": {
+        "han": 625,
+        "paragraphs": 3,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "d59ae77d8f084980dc3b9224ba324aaa3cd594ba3a790d30169d6b907fbe5fd8"
+      },
+      "S3": {
+        "han": 771,
+        "paragraphs": 4,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "63e7492fd0ee105a67e191bc243d4fb938a0035712b7db923f545bee0e282ec5"
+      },
+      "S4": {
+        "han": 135,
+        "paragraphs": 1,
+        "length_ok": true,
+        "paragraph_count_ok": true,
+        "answer_sha256": "448e4d0640913aa4395c92d02fb9635730dd97b3a16087728bf3f5ccd06934b3",
+        "footnote_exact_once": true,
+        "other_paragraph_labels_absent": true,
+        "single_line": true
+      }
+    }
+  }
+}

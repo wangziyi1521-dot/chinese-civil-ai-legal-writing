@@ -1,0 +1,50 @@
+{
+  "Q01": {
+    "run": "style-r2",
+    "case": "N2"
+  },
+  "Q02": {
+    "run": "base-r2",
+    "case": "N3"
+  },
+  "Q03": {
+    "run": "base-r1",
+    "case": "N3"
+  },
+  "Q04": {
+    "run": "base-r1",
+    "case": "N1"
+  },
+  "Q05": {
+    "run": "style-r1",
+    "case": "N2"
+  },
+  "Q06": {
+    "run": "style-r1",
+    "case": "N3"
+  },
+  "Q07": {
+    "run": "style-r2",
+    "case": "N3"
+  },
+  "Q08": {
+    "run": "base-r2",
+    "case": "N2"
+  },
+  "Q09": {
+    "run": "base-r1",
+    "case": "N2"
+  },
+  "Q10": {
+    "run": "base-r2",
+    "case": "N1"
+  },
+  "Q11": {
+    "run": "style-r2",
+    "case": "N1"
+  },
+  "Q12": {
+    "run": "style-r1",
+    "case": "N1"
+  }
+}

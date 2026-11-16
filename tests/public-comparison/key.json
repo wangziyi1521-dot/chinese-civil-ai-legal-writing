@@ -1,0 +1,14 @@
+{
+  "B01": {
+    "X": "extra",
+    "Y": "reference"
+  },
+  "B02": {
+    "X": "reference",
+    "Y": "extra"
+  },
+  "B03": {
+    "X": "reference",
+    "Y": "extra"
+  }
+}

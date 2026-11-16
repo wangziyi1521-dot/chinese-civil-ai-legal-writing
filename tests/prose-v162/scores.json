@@ -1,0 +1,50 @@
+{
+  "judges": {
+    "a": {
+      "totals": {
+        "old": {
+          "readability": 11,
+          "fidelity": 12,
+          "major_errors": []
+        },
+        "new": {
+          "readability": 11,
+          "fidelity": 12,
+          "major_errors": []
+        }
+      },
+      "preferences": {
+        "P01": "new",
+        "P02": "old"
+      }
+    },
+    "b": {
+      "totals": {
+        "old": {
+          "readability": 11,
+          "fidelity": 12,
+          "major_errors": []
+        },
+        "new": {
+          "readability": 11,
+          "fidelity": 12,
+          "major_errors": []
+        }
+      },
+      "preferences": {
+        "P01": "new",
+        "P02": "old"
+      }
+    }
+  },
+  "means": {
+    "old": {
+      "readability": 11.0,
+      "fidelity": 12.0
+    },
+    "new": {
+      "readability": 11.0,
+      "fidelity": 12.0
+    }
+  }
+}

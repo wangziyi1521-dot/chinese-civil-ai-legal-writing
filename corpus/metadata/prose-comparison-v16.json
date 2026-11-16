@@ -1,0 +1,416 @@
+{
+  "version": "1.6",
+  "read_date": "2026-11-13",
+  "scope": "九组段落任务匹配的行文观察；共有方法，不识别个人风格",
+  "sources": [
+    {
+      "id": "WL-M-01",
+      "author": "王利明",
+      "title": "论人格权独立成编的理由",
+      "year": 2017,
+      "journal": "法学评论",
+      "issue": 6,
+      "url": "https://www.civillaw.com.cn/uploadfile/lmpic/20171029/20171029114603822.pdf",
+      "source_kind": "原刊PDF",
+      "page_status": "选段已核原刊页及段界",
+      "genre_note": "原刊第1页脚注记载由2017年7月15—16日主题发言整理"
+    },
+    {
+      "id": "V16-CT-2017-S",
+      "author": "石佳友",
+      "title": "人权与人格权的关系——从人格权法的独立成编出发",
+      "year": 2017,
+      "journal": "法学评论",
+      "issue": 6,
+      "url": "https://www.aisixiang.com/data/106614.html",
+      "source_kind": "完整转载；转载首段标同刊同期",
+      "page_status": "原刊页与原刊段界待核",
+      "genre_note": ""
+    },
+    {
+      "id": "WL-D-02",
+      "author": "王利明",
+      "title": "迈进数字时代的民法",
+      "year": 2022,
+      "journal": "比较法研究",
+      "issue": 4,
+      "url": "https://www.aisixiang.com/data/136779.html",
+      "source_kind": "完整网页转载",
+      "page_status": "原刊精确引页待核",
+      "web_updated_at": "2022-09-27 10:02"
+    },
+    {
+      "id": "CT-02",
+      "author": "姚佳",
+      "title": "数据要素市场化的法律制度配置",
+      "year": 2022,
+      "journal": "郑州大学学报（哲学社会科学版）",
+      "issue": 6,
+      "url": "https://www.aisixiang.com/data/137810.html",
+      "source_kind": "完整网页转载",
+      "page_status": "原刊精确引页待核",
+      "web_updated_at": "2025-12-07 11:18"
+    },
+    {
+      "id": "WL-D-06",
+      "author": "王利明",
+      "title": "生成式人工智能侵权的归责原则与过错认定",
+      "year": 2025,
+      "journal": "中国法律评论",
+      "issue": "4",
+      "url": "https://www.aisixiang.com/data/165618.html",
+      "source_kind": "完整网页转载",
+      "page_status": "全部选段具体原刊页待核",
+      "web_updated_at": "2025-08-01"
+    },
+    {
+      "id": "CT-01",
+      "author": "林洹民",
+      "title": "人工智能侵权的过错责任",
+      "year": 2025,
+      "journal": "法学研究",
+      "issue": "5",
+      "url": "https://www.aisixiang.com/data/167927.html",
+      "source_kind": "完整网页转载",
+      "page_status": "全部选段具体原刊页待核",
+      "web_updated_at": "2025-10-08"
+    }
+  ],
+  "counting_basis": "2017按核对后的原刊段与转载段；2022及2025按各网页可见自然段。句数仅为人工局部描述，不合并旧统计。AI一项为相邻两个短段。",
+  "pairs": [
+    {
+      "id": "V16-2017-A",
+      "task": "由技术进展说明主体地位保护的必要性",
+      "matching_limit": "王段展开侵害条件，石段论证尊严原则；王段规范建议在下一段。",
+      "sampling": "本轮重新匹配",
+      "units": [
+        {
+          "id": "W-tech",
+          "source_id": "WL-M-01",
+          "section": "一（一）",
+          "natural_paragraph": 4,
+          "print_pages": [
+            2
+          ],
+          "prefixes": [
+            "生物技术"
+          ],
+          "paragraph_count": 1,
+          "observation": "主体风险短句后接机制长句；例证扩展后以条件风险结束",
+          "sentence_count": 6,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 6
+        },
+        {
+          "id": "S-tech",
+          "source_id": "V16-CT-2017-S",
+          "section": "二（二）",
+          "natural_paragraph": 2,
+          "print_pages": null,
+          "prefixes": [
+            "在科技飞速"
+          ],
+          "paragraph_count": 1,
+          "observation": "冒号后压缩技术并列；次句回指风险并收束原则主张",
+          "sentence_count": 2,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 2
+        }
+      ]
+    },
+    {
+      "id": "V16-2017-B",
+      "task": "由列举与具体规范间距离引出细化需求",
+      "matching_limit": "王段细化权利内容，石段同时评估解释、判例的承接资格。",
+      "sampling": "本轮重新匹配",
+      "units": [
+        {
+          "id": "W-gap",
+          "source_id": "WL-M-01",
+          "section": "二（二）",
+          "natural_paragraph": 2,
+          "print_pages": [
+            4
+          ],
+          "prefixes": [
+            "相较于世界"
+          ],
+          "paragraph_count": 1,
+          "observation": "长句保存让步转折及缺项，下一长句用类型化解释抽象判断",
+          "sentence_count": 3,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 3
+        },
+        {
+          "id": "S-gap",
+          "source_id": "V16-CT-2017-S",
+          "section": "三（二）",
+          "natural_paragraph": 1,
+          "print_pages": null,
+          "prefixes": [
+            "《民法总则》"
+          ],
+          "paragraph_count": 1,
+          "observation": "前4句分配任务，末句冒号与分号列理由；以替代渠道困难结束",
+          "sentence_count": 5,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 5
+        }
+      ]
+    },
+    {
+      "id": "V16-2017-C",
+      "task": "域外背景后的本国条件审查和局部收束",
+      "matching_limit": "王段含法源引文和承接办法，石段以两项条件的障碍收束。",
+      "sampling": "复用v1.5完整段，新增句法、重述与语势核读",
+      "units": [
+        {
+          "id": "W-court",
+          "source_id": "WL-M-01",
+          "section": "五",
+          "natural_paragraph": 3,
+          "print_pages": [
+            9,
+            10
+          ],
+          "prefixes": [
+            "从比较法"
+          ],
+          "paragraph_count": 1,
+          "observation": "长背景后2短句转向；法源引文后推导并以换言之增加规范媒介",
+          "sentence_count": 7,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 8
+        },
+        {
+          "id": "S-court",
+          "source_id": "V16-CT-2017-S",
+          "section": "三（一）",
+          "natural_paragraph": 4,
+          "print_pages": null,
+          "prefixes": [
+            "在我国"
+          ],
+          "paragraph_count": 1,
+          "observation": "首句概括限制，次句在同一句内保存2项联合条件后收束障碍",
+          "sentence_count": 2,
+          "context_read": true,
+          "sentence_count_basis": "外层叙述句；引文内句号不独立增加外层句",
+          "orthographic_sentence_units_including_quotes": 2
+        }
+      ]
+    },
+    {
+      "id": "V16-D-01",
+      "task": "承认事实前提后，检验扩张性权利主张并给出处理出口",
+      "matching_limit": "争点、主要结论和段落任务较接近；信息主体与用户内容贡献的概念外延仍有差异",
+      "units": [
+        {
+          "source_id": "WL-D-02",
+          "section": "三、人格权的变迁：从注重保护财产权益向注重维护数字人格权益／（四）人格权益利用与行使方式的多样化",
+          "natural_paragraph": 3,
+          "prefixes": [
+            "在数据"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "承认前提后分层解释，末句保留例外。",
+          "context_read": true
+        },
+        {
+          "source_id": "CT-02",
+          "section": "三、数据要素市场化的制度构建基础：数据确权／（二）数据确权：如何确权？",
+          "natural_paragraph": 7,
+          "prefixes": [
+            "最后"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "条件问句后分解类比，材料后回到保护路径。",
+          "context_read": true
+        }
+      ]
+    },
+    {
+      "id": "V16-D-02",
+      "task": "将对象特性连接到交易制度的组织方式",
+      "matching_limit": "中：王段解释为何转换参照，姚段梳理已有模式及参与者，层级不完全一致",
+      "units": [
+        {
+          "source_id": "WL-D-02",
+          "section": "二、合同法的变迁：从鼓励交易到注重数据的流通与利用／（二）交易内容发生重大变化",
+          "natural_paragraph": 1,
+          "prefixes": [
+            "在传统"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "旧新问题对照后，机制说明与归纳交替。",
+          "context_read": true
+        },
+        {
+          "source_id": "CT-02",
+          "section": "四、数据要素市场化的重要制度构建：数据交易／（三）数据交易：如何交易？",
+          "natural_paragraph": 1,
+          "prefixes": [
+            "数据交"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "分类后选点解释，再扩展参与关系。",
+          "context_read": true
+        }
+      ]
+    },
+    {
+      "id": "V16-D-03",
+      "task": "通过适用场景限制抽象交易结论",
+      "matching_limit": "争点接近、任务部分匹配：王段导向规则完善，姚段总结客体边界并过渡",
+      "units": [
+        {
+          "source_id": "WL-D-02",
+          "section": "二、合同法的变迁：从鼓励交易到注重数据的流通与利用／（三）合同交易规则的参照系发生了变化",
+          "natural_paragraph": 1,
+          "prefixes": [
+            "在传统"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "参照与差异同列，条件嵌入例证。",
+          "context_read": true
+        },
+        {
+          "source_id": "CT-02",
+          "section": "四、数据要素市场化的重要制度构建：数据交易／（二）数据交易：交易什么？",
+          "natural_paragraph": 6,
+          "prefixes": [
+            "总体"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "两个场景后提炼边界，末句引向下一问题。",
+          "context_read": true
+        }
+      ]
+    },
+    {
+      "id": "V16-AI-S1",
+      "task": "说明过错责任如何协调行为评价与活动空间",
+      "matching_limit": "中：同属一般归责理由段；王文侧重提供者，林文兼顾使用者，段内任务负荷有别。",
+      "counterevidence": "WL同小节第3段（L103）已有条件与括号例示；CT同小节第1段（L66）也用连续解释，无具体个案。因此当前差异不能升格为作者二分。",
+      "units": [
+        {
+          "source_id": "WL-D-06",
+          "section": "生成式人工智能侵权的归责原则／（三）以过错责任为一般归责原则",
+          "natural_paragraph": 2,
+          "prefixes": [
+            "一方面"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "四个句号句。先给功能判断，再用同一主语连续解释，插入一个短条件句；本段无实例，段尾把理由扩展为两层关系。前段给总命题，后段转入条件与共同过错。",
+          "sentence_count": 4,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        },
+        {
+          "source_id": "CT-01",
+          "section": "二、规则建构起点：人工智能侵权的过错责任／（二）人工智能侵权过错归责原则之证成",
+          "natural_paragraph": 3,
+          "prefixes": [
+            "其二"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "九个句号句。总判断后先铺场景，再以一例展开、插入比喻、列相反条件；段尾返回段首功能。邻段分别谈主体链条与救济范围，当前段解释行为筛选。",
+          "sentence_count": 9,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        }
+      ]
+    },
+    {
+      "id": "V16-AI-S2",
+      "task": "把过错转换为可观察的外部判断入口",
+      "matching_limit": "中：两段开头任务接近；林段另承担阶段分类和下文导航。",
+      "counterevidence": "王段后续L112—115马上串联裁判；林段第2段L91又回到外部标准及其证明功能。二者均能在不同位置使用确认性重述。",
+      "units": [
+        {
+          "source_id": "WL-D-06",
+          "section": "生成式人工智能侵权的过错认定／（一）过错的标准：违反注意义务",
+          "natural_paragraph": 1,
+          "prefixes": [
+            "一旦采纳"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "问句起步，随后三次改述同一判断标准；学理与域外材料用于确认标准，段尾回到标准的功能。后续两段转向判决，当前段尚不展开个案。",
+          "sentence_count": 5,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        },
+        {
+          "source_id": "CT-01",
+          "section": "三、过错责任下人工智能侵权的举证便利性规则／（一）实体性权利义务规则／2.系统提供者的注意义务",
+          "natural_paragraph": 1,
+          "prefixes": [
+            "侵权法的"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "六个句号句。由定义转向义务清单，再按阶段分型；例项依分类串联，段尾预告输出环节，后两段兑现。解释从单一尺度扩为问题地图。",
+          "sentence_count": 6,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        }
+      ]
+    },
+    {
+      "id": "V16-AI-S3",
+      "task": "把概括标准转为可随时点和条件调整的尺度",
+      "matching_limit": "中偏低：王文为单维度的定义与理由相邻短段，林文为包含该维度的多因素综合段；保留这一竞争解释。",
+      "counterevidence": "王文同小节第7段L146也把判断、理由与个案合并；林文L90的末句只做导航。段尾功能受当前章节任务约束。",
+      "units": [
+        {
+          "source_id": "WL-D-06",
+          "section": "生成式人工智能侵权的过错认定／（三）服务提供者过错的认定应当考虑现有技术水平",
+          "natural_paragraph": [
+            1,
+            2
+          ],
+          "prefixes": [
+            "在认定",
+            "之所以"
+          ],
+          "paragraph_count": 2,
+          "page_status": "原刊精确引页待核",
+          "observation": "合计三个句号句。首段在一个长句内完成时点释义和条件后果；次段给理由，再以变化条件校正静态读法。后段及个案承接可行性，段尾留下调整入口。",
+          "sentence_count": 3,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        },
+        {
+          "source_id": "CT-01",
+          "section": "三、过错责任下人工智能侵权的举证便利性规则／（一）实体性权利义务规则／2.系统提供者的注意义务",
+          "natural_paragraph": 3,
+          "prefixes": [
+            "除上述"
+          ],
+          "paragraph_count": 1,
+          "page_status": "原刊精确引页待核",
+          "observation": "八个句号句。先列标准，继以学者重述，再接发展理由与域外例证；例证内编号压缩，末句作类比回推。段尾把材料带回司法方法，下段转证据问题。",
+          "sentence_count": 8,
+          "context_read": true,
+          "sentence_count_basis": "人工按句末。？！计，分号和编号不另分句"
+        }
+      ]
+    }
+  ],
+  "evidence_level": "低至中，保留为可选行文操作；无相似度百分比或作者特异性结论。",
+  "storage": "Skill仅含书目、短定位及原创观察。长原文与完整研究记录留工作区。"
+}

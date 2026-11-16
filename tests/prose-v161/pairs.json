@@ -1,0 +1,32 @@
+{
+  "P01": {
+    "case": "N3",
+    "left": "Q02",
+    "right": "Q07"
+  },
+  "P02": {
+    "case": "N2",
+    "left": "Q05",
+    "right": "Q09"
+  },
+  "P03": {
+    "case": "N1",
+    "left": "Q10",
+    "right": "Q11"
+  },
+  "P04": {
+    "case": "N1",
+    "left": "Q04",
+    "right": "Q12"
+  },
+  "P05": {
+    "case": "N2",
+    "left": "Q01",
+    "right": "Q08"
+  },
+  "P06": {
+    "case": "N3",
+    "left": "Q06",
+    "right": "Q03"
+  }
+}

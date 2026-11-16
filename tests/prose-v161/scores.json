@@ -1,0 +1,245 @@
+{
+  "style_max_per_condition": 54,
+  "quality_max_per_condition": 24,
+  "by_judge": {
+    "judge-a": {
+      "reference_coverage": "已完整读取grading-instructions.md、inputs/cases.md、inputs/sources.md、rubric.json、blind/anonymous.md及blind/pairs.json；逐字比较N2前两段，核对N1脚注及N3待核标记，并按汉字核查字数和自然段。未外检，未读取其他材料。",
+      "run_totals": {
+        "base-r1": {
+          "style": 27,
+          "quality": 12
+        },
+        "base-r2": {
+          "style": 26,
+          "quality": 12
+        },
+        "style-r1": {
+          "style": 26,
+          "quality": 12
+        },
+        "style-r2": {
+          "style": 27,
+          "quality": 12
+        }
+      },
+      "condition_totals": {
+        "base": {
+          "style": 53,
+          "quality": 24
+        },
+        "style": {
+          "style": 53,
+          "quality": 24
+        }
+      },
+      "preferences": [
+        {
+          "pair": "P01",
+          "case": "N3",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P02",
+          "case": "N2",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P03",
+          "case": "N1",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P04",
+          "case": "N1",
+          "result_for_candidate": "loss"
+        },
+        {
+          "pair": "P05",
+          "case": "N2",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P06",
+          "case": "N3",
+          "result_for_candidate": "tie"
+        }
+      ],
+      "preference_counts": {
+        "win": 1,
+        "tie": 4,
+        "loss": 1,
+        "insufficient": 0
+      }
+    },
+    "judge-b": {
+      "reference_coverage": "完整读取评审说明、三题共同任务、共同来源所列第1195条三款及第588条两款、评分量表、12份匿名答案和6组配对；未外检。逐字比对N2前两段，核对N1脚注及N3待核标记，并按汉字统计字数和自然段。",
+      "run_totals": {
+        "base-r1": {
+          "style": 27,
+          "quality": 12
+        },
+        "base-r2": {
+          "style": 26,
+          "quality": 12
+        },
+        "style-r1": {
+          "style": 27,
+          "quality": 12
+        },
+        "style-r2": {
+          "style": 27,
+          "quality": 12
+        }
+      },
+      "condition_totals": {
+        "base": {
+          "style": 53,
+          "quality": 24
+        },
+        "style": {
+          "style": 54,
+          "quality": 24
+        }
+      },
+      "preferences": [
+        {
+          "pair": "P01",
+          "case": "N3",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P02",
+          "case": "N2",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P03",
+          "case": "N1",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P04",
+          "case": "N1",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P05",
+          "case": "N2",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P06",
+          "case": "N3",
+          "result_for_candidate": "tie"
+        }
+      ],
+      "preference_counts": {
+        "win": 1,
+        "tie": 5,
+        "loss": 0,
+        "insufficient": 0
+      }
+    }
+  },
+  "average_condition_totals": {
+    "base": {
+      "style": 53,
+      "quality": 24
+    },
+    "style": {
+      "style": 53.5,
+      "quality": 24
+    }
+  },
+  "case_means_max_style18_quality8": {
+    "N1": {
+      "base": {
+        "style": 18,
+        "quality": 8
+      },
+      "style": {
+        "style": 17.5,
+        "quality": 8
+      }
+    },
+    "N2": {
+      "base": {
+        "style": 18,
+        "quality": 8
+      },
+      "style": {
+        "style": 18,
+        "quality": 8
+      }
+    },
+    "N3": {
+      "base": {
+        "style": 17,
+        "quality": 8
+      },
+      "style": {
+        "style": 18,
+        "quality": 8
+      }
+    }
+  },
+  "pair_results": {
+    "P01": {
+      "case": "N3",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "win",
+        "judge-b": "win"
+      },
+      "agreement": true
+    },
+    "P02": {
+      "case": "N2",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P03": {
+      "case": "N1",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P04": {
+      "case": "N1",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "loss",
+        "judge-b": "tie"
+      },
+      "agreement": false
+    },
+    "P05": {
+      "case": "N2",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P06": {
+      "case": "N3",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    }
+  },
+  "pair_preference_agreement_count": 5,
+  "major_errors": {},
+  "notes": "两名代理对6组对应答案的定向语言质量评价，不作作者识别、百分比相似度或统计显著性解释。"
+}

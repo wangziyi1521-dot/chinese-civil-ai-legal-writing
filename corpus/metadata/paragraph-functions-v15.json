@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-13",
+  "purpose": "2017同刊同题新增段落功能配对；为本次分析，不作作者整体风格或频率判断",
+  "sources": {
+    "wang": {
+      "title": "论人格权独立成编的理由",
+      "journal": "法学评论2017年第6期",
+      "url": "https://www.civillaw.com.cn/uploadfile/lmpic/20171029/20171029114603822.pdf",
+      "new_visually_checked_printed_pages": [
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    "shi": {
+      "title": "人权与人格权的关系——从人格权法的独立成编出发",
+      "journal_as_reprint_identifies": "法学评论2017年第6期",
+      "url": "https://www.aisixiang.com/data/106614.html",
+      "original_printed_pages_verified": false,
+      "html_paragraph_count": 118
+    }
+  },
+  "cleaning": "石文保留article-content中的118个非空HTML段，包括刊载信息、摘要、正文和注释；HTML实体解码、nbsp转空格，br保留换行。定位的自然段不计标题、刊载信息、摘要和注释；source_index为原JSON paragraphs的零基下标。王文逐页抽文含空格、脚注符号和数字抽取异常，段界与所报印刷页码以原刊渲染图核对。",
+  "limits": "石文仅核完整公开转载及相邻段，未核原刊页码。两文中的法条、案例和比较法叙述作为2017年论文的论证材料，未独立核验其正确性或现行效力；本次不将之作为现行法意见。八段均不复用v14 middle.md四段。",
+  "source_description_chinese_chars": {
+    "王利明": 107,
+    "石佳友": 111
+  },
+  "records": [
+    {
+      "id": "W3",
+      "pair": 1,
+      "author": "王利明",
+      "location": "原刊第5页，三第1自然段",
+      "anchor": "民法典体系",
+      "source_index": null,
+      "operation": "概念分层",
+      "progression": "两类体系释义→价值引语→总则编排→分编位置评价",
+      "migration": "定义维度须相互区分；价值判断如何支持体例安排，仍需给出连接理由。",
+      "adjacent_read": "二（二）末段及三第2段（跨第5—6页）",
+      "verified_pages": [
+        5
+      ]
+    },
+    {
+      "id": "S3",
+      "pair": 1,
+      "author": "石佳友",
+      "location": "转载导论第1自然段",
+      "anchor": "人格",
+      "source_index": 4,
+      "operation": "同词辨义",
+      "progression": "界定人格→区分法律人格→用个性与共性压缩差异",
+      "migration": "同名概念存在歧义时，先确定比较维度，再将定义接入具体制度问题。",
+      "adjacent_read": "导论第2—4自然段",
+      "verified_pages": []
+    },
+    {
+      "id": "W4",
+      "pair": 2,
+      "author": "王利明",
+      "location": "原刊第10页，六（二）唯一自然段",
+      "anchor": "我国目前虽",
+      "source_index": null,
+      "operation": "材料转为设计依据",
+      "progression": "总括既有资源→信息保护规则→姓名解释→说明借鉴用途",
+      "migration": "须说明既有规则与拟建制度解决何种同一问题，并交代转用时需调整之处。",
+      "adjacent_read": "六（一）与六（三）首段",
+      "verified_pages": [
+        10
+      ]
+    },
+    {
+      "id": "S4",
+      "pair": 2,
+      "author": "石佳友",
+      "location": "转载二（一）第1自然段",
+      "anchor": "民法典如果",
+      "source_index": 30,
+      "operation": "比较材料转为机制",
+      "progression": "先立保护目标→魁北克序言→阿根廷条款→概括渊源互动",
+      "migration": "选择外国规范后要解释其制度作用；迁移结论须核对本国法源结构。",
+      "adjacent_read": "二总起段及二（一）第2—6自然段",
+      "verified_pages": []
+    },
+    {
+      "id": "W5",
+      "pair": 3,
+      "author": "王利明",
+      "location": "原刊第8页，四（三）第2自然段",
+      "anchor": "我国侵权",
+      "source_index": null,
+      "operation": "规范分工",
+      "progression": "承认救济作用→分列确权与发展缺口→隐私例证→专编承接",
+      "migration": "先列相邻制度已能处理的事项，再逐项证明缺口；规则交叉本身不能推出相互替代。",
+      "adjacent_read": "四（三）第1段及第3段（后者跨第8—9页）",
+      "verified_pages": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "S5",
+      "pair": 3,
+      "author": "石佳友",
+      "location": "转载二（四）第2自然段",
+      "anchor": "尤其要将",
+      "source_index": 49,
+      "operation": "规范层次辨义",
+      "progression": "提出区分→释义并列服务要素→公约条文→义务主体→释义要求",
+      "migration": "同名权利须比较内容与义务主体；不能仅靠名称认定公法与私法规范可互换。",
+      "adjacent_read": "二（四）第1段及三总起段",
+      "verified_pages": []
+    },
+    {
+      "id": "W6",
+      "pair": 4,
+      "author": "王利明",
+      "location": "原刊第9—10页，五末自然段",
+      "anchor": "从比较法",
+      "source_index": null,
+      "operation": "条件性收束",
+      "progression": "国外路径→本国引法限制→民法具体化→改述裁判用途",
+      "migration": "检验制度移植时须核对所依赖的本国法源与权限条件，并区分直接裁判依据与解释参照。",
+      "adjacent_read": "五前段及六（一）",
+      "verified_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "S6",
+      "pair": 4,
+      "author": "石佳友",
+      "location": "转载三（一）第4自然段（末段）",
+      "anchor": "在我国为",
+      "source_index": 56,
+      "operation": "条件性收束",
+      "progression": "回接法德背景→设置两项规范缺口→归结司法保护障碍",
+      "migration": "联合条件要写全；并回看二（一）末段对说理参照的讨论，区分裁判援引与间接解释。",
+      "adjacent_read": "三（一）第1—3段、三（二），并复读二（一）末段",
+      "verified_pages": []
+    }
+  ]
+}

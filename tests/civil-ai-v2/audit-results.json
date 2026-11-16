@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "reviewer": "independent_acceptance_audit",
+  "overall_status": "pass",
+  "deliverable": true,
+  "blocking_installation_issues": [],
+  "scores_used": false,
+  "audit_order": {
+    "inputs_read_first": true,
+    "actual_outputs_and_core_resources_read_before_T05_key": true,
+    "T05_key_used_only_for_posterior_comparison": true,
+    "T07_supplementary_input_read_before_output": true,
+    "reviewed_files_modified": false
+  },
+  "acceptance_cases": [
+    {
+      "id": "T01",
+      "status": "pass",
+      "evidence_file": "acceptance-01-literature.md",
+      "basis": "实际结构、推论链、方法、反例和原页定位满足冻结要求。"
+    },
+    {
+      "id": "T02",
+      "status": "pass",
+      "evidence_file": "acceptance-02-outline.md",
+      "basis": "五章逐项给出命题、必要性、材料、反方和承接，证明对象分开。"
+    },
+    {
+      "id": "T03",
+      "status": "pass",
+      "evidence_file": "acceptance-03-comparison.md",
+      "basis": "三归责路径比较有真实阅读层级，2026正式意见及现行顺位已纳入。"
+    },
+    {
+      "id": "T04",
+      "status": "pass",
+      "evidence_file": "acceptance-04-revision.md",
+      "basis": "五类错误推理修复，实际修改稿及实质变更说明齐备。"
+    },
+    {
+      "id": "T05",
+      "status": "pass",
+      "evidence_file": "acceptance-05-citations.md",
+      "basis": "七项均处置，与后验答案键相符；未核实不被写成证明伪造。"
+    },
+    {
+      "id": "T06",
+      "status": "pass",
+      "evidence_file": "acceptance-06-preferences.md",
+      "basis": "两段引言及一段暂拟摘要，无虚构发现或首次性评价，必要条件保留。"
+    },
+    {
+      "id": "T07",
+      "status": "pass",
+      "evidence_file": "acceptance-07-review.md",
+      "basis": "P1至P5位置式意见、五条作者回应及替换稿、修订命题满足新增冻结门槛。"
+    }
+  ],
+  "functional_workflows": [
+    {
+      "name": "文献分析",
+      "status": "pass",
+      "evidence": [
+        "T01"
+      ]
+    },
+    {
+      "name": "框架设计",
+      "status": "pass",
+      "evidence": [
+        "T02"
+      ]
+    },
+    {
+      "name": "正文写作",
+      "status": "pass",
+      "evidence": [
+        "T06",
+        "T03"
+      ],
+      "scope": "指定片段与规范比较，非完整长篇论文质量外推"
+    },
+    {
+      "name": "深度修改",
+      "status": "pass",
+      "evidence": [
+        "T04"
+      ]
+    },
+    {
+      "name": "引注核验",
+      "status": "pass",
+      "evidence": [
+        "T05"
+      ]
+    },
+    {
+      "name": "审稿与反驳",
+      "status": "pass",
+      "evidence": [
+        "T07"
+      ],
+      "previous_coverage_gap": "closed_after_frozen_supplementary_test"
+    }
+  ],
+  "substantive_checks": [
+    {
+      "id": "evidence_layers",
+      "status": "pass",
+      "basis": "十专题区分现行规范、学说、裁判及分析，司法意见未冒作法律或司法解释。"
+    },
+    {
+      "id": "imputation_fault_causation",
+      "status": "pass",
+      "basis": "归责、过错标准、过错证明、因果证明及拒证后果对象明确分开。"
+    },
+    {
+      "id": "C12",
+      "status": "pass",
+      "basis": "双署名；2023卷标与2024出版年分开；pages=null；64-82仅他文线索。"
+    },
+    {
+      "id": "unverified_fixture",
+      "status": "pass",
+      "basis": "T05第4项仅判未核实；后验合成测试身份未当成检索证明。"
+    },
+    {
+      "id": "wang_dedup",
+      "status": "pass",
+      "basis": "旧51深析与C01/C03/C04三篇重复回读未相加；不同作者未并入个人文风。"
+    },
+    {
+      "id": "T06_form_and_scope",
+      "status": "pass",
+      "basis": "两段引言、一段暂拟摘要；不造实证发现；保留反方和条件。"
+    },
+    {
+      "id": "comparison_claims",
+      "status": "pass",
+      "basis": "本轮为功能验收，无新旧盲测及统计显著提升主张。"
+    }
+  ],
+  "ledger_snapshot": {
+    "records": 18,
+    "statuses": {
+      "verified": 12,
+      "partial": 5,
+      "corrected": 1
+    },
+    "access_levels": {
+      "publisher_pdf": 3,
+      "fulltext_html": 2,
+      "body_without_notes": 5,
+      "abstract": 7,
+      "metadata_only": 1
+    },
+    "full_bodies_read": 10,
+    "full_bodies_saved_locally": 9,
+    "legacy_catalog_records": 82,
+    "legacy_deep_cards": 51,
+    "overlap_candidate_ids": [
+      1,
+      3,
+      4
+    ]
+  },
+  "T05_posterior_checks": [
+    {
+      "id": 1,
+      "status": "pass"
+    },
+    {
+      "id": 2,
+      "status": "pass"
+    },
+    {
+      "id": 3,
+      "status": "pass"
+    },
+    {
+      "id": 4,
+      "status": "pass"
+    },
+    {
+      "id": 5,
+      "status": "pass"
+    },
+    {
+      "id": 6,
+      "status": "pass"
+    },
+    {
+      "id": 7,
+      "status": "pass"
+    }
+  ],
+  "mechanical_checks": {
+    "relative_markdown_links": {
+      "status": "pass",
+      "broken": 0
+    },
+    "legacy_files": {
+      "status": "pass",
+      "preserved": 161,
+      "missing": 0
+    },
+    "stdlib_runtime": {
+      "status": "pass",
+      "python": "3.9.6",
+      "isolation_flags": [
+        "-I",
+        "-B",
+        "-S"
+      ],
+      "new_script": "scripts/literature_lookup.py",
+      "imports": [
+        "argparse",
+        "collections",
+        "json",
+        "pathlib",
+        "sys"
+      ]
+    },
+    "ledger_validate": {
+      "status": "pass",
+      "errors": []
+    },
+    "query_probes": {
+      "status": "pass",
+      "commands": [
+        "--author 林洹民 --full-body",
+        "--id 5 --show-analysis"
+      ]
+    },
+    "test_suite": {
+      "status": "partial",
+      "meaning": "coverage_only_no_failures",
+      "command": "python3 -I -B -S -m unittest discover -v -s upgrade/candidate-skill/tests -p 'test_*.py'",
+      "run": 39,
+      "passed": 38,
+      "skipped": 1,
+      "failed": 0,
+      "files": [
+        {
+          "file": "test_corpus_tools.py",
+          "run": 15,
+          "passed": 14,
+          "skipped": 1
+        },
+        {
+          "file": "test_literature_lookup.py",
+          "run": 8,
+          "passed": 8,
+          "skipped": 0
+        },
+        {
+          "file": "test_select_methods.py",
+          "run": 16,
+          "passed": 16,
+          "skipped": 0
+        }
+      ],
+      "skip_test": "test_corpus_tools.CorpusToolsTests.test_pdf_ingest_on_available_backend",
+      "skip_reason": "PDF fixture generation needs reportlab",
+      "uncovered": "旧合成PDF生成及导入后端验证",
+      "new_lookup_and_method_subset": {
+        "run": 24,
+        "passed": 24
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "A01",
+      "kind": "acceptance_coverage",
+      "status": "resolved",
+      "blocking": false,
+      "problem": "初审无独立位置式审稿交付。",
+      "minimal_fix": "先冻结T07输入再执行审稿及作者回应。",
+      "resolution": "T07已真实交付并独立核验pass。"
+    },
+    {
+      "id": "A02",
+      "kind": "verification_coverage",
+      "status": "partial",
+      "blocking": false,
+      "problem": "旧PDF fixture测试因reportlab缺失跳过。",
+      "minimal_fix": "记录38 pass加1 skip；以后在具备依赖的既有环境重跑单项。当前无需安装依赖。"
+    }
+  ],
+  "remaining_evidence_gaps": [
+    "部分原刊脚注及分页尚未取得",
+    "C12页码及结语草案文字待原刊",
+    "C17图表未完整读取",
+    "外引裁判未独立回源",
+    "8条候选尚无完整正文"
+  ],
+  "official_spot_checks": [
+    "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+    "https://m.thepaper.cn/newsDetail_forward_26413645",
+    "https://www.shupl.edu.cn/flxy/2026/0920/c4113a152080/page.htm",
+    "https://sls.org.cn/webfile/upload/2018/06-04/13-22-2004981159704124.pdf"
+  ],
+  "release_conclusion": "未发现阻断安装问题；候选Skill可安装并交付。"
+}

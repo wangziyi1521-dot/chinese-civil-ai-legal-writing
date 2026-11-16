@@ -1,0 +1,21 @@
+test_absolute_traversal_and_symlink_escape_are_rejected (test_select_methods.IsolatedCardsTests) ... ok
+test_duplicate_exact_headings_are_rejected (test_select_methods.IsolatedCardsTests) ... ok
+test_index_symlink_escape_is_rejected (test_select_methods.IsolatedCardsTests) ... ok
+test_prefix_collision_and_missing_exact_heading (test_select_methods.IsolatedCardsTests) ... ok
+test_search_is_and_across_only_the_five_allowed_fields (test_select_methods.IsolatedCardsTests) ... ok
+test_source_contents_are_returned_as_data_and_never_executed (test_select_methods.IsolatedCardsTests) ... ok
+test_stale_line_falls_back_to_full_id_and_warns (test_select_methods.IsolatedCardsTests) ... ok
+test_all_51_ids_extract_the_complete_exact_card (test_select_methods.RealCardsTests) ... ok
+test_article_468_and_nature_has_one_match (test_select_methods.RealCardsTests) ... ok
+test_cli_accepts_separate_or_quoted_terms_and_outputs_json (test_select_methods.RealCardsTests) ... ok
+test_cli_markdown_keeps_context_and_citation_boundaries (test_select_methods.RealCardsTests) ... ok
+test_cli_rejects_empty_query_and_nonpositive_limit (test_select_methods.RealCardsTests) ... ok
+test_default_limit_and_explicit_limit (test_select_methods.RealCardsTests) ... ok
+test_partial_performance_and_termination_has_one_match (test_select_methods.RealCardsTests) ... ok
+test_unknown_id_or_id_prefix_is_not_a_match (test_select_methods.RealCardsTests) ... ok
+test_unrelated_topic_returns_empty_without_substitute (test_select_methods.RealCardsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.279s
+
+OK

@@ -1,0 +1,18 @@
+{
+  "C01-甲": {
+    "version": "v1.3-candidate",
+    "run": 2
+  },
+  "C01-乙": {
+    "version": "v1.2",
+    "run": 1
+  },
+  "C02-甲": {
+    "version": "v1.3-candidate",
+    "run": 2
+  },
+  "C02-乙": {
+    "version": "v1.2",
+    "run": 1
+  }
+}

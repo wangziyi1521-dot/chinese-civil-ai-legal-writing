@@ -1,0 +1,12 @@
+{
+  "P01": {
+    "topic": "ai",
+    "left": "Q03",
+    "right": "Q01"
+  },
+  "P02": {
+    "topic": "contract",
+    "left": "Q04",
+    "right": "Q02"
+  }
+}

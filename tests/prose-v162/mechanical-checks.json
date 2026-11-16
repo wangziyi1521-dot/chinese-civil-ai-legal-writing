@@ -1,0 +1,62 @@
+{
+  "new-ai": {
+    "headings_match": true,
+    "paragraph_counts": [
+      3,
+      3,
+      3
+    ],
+    "paragraph_range_ok": true,
+    "body_han": 1558,
+    "length_ok": true,
+    "fixed_notes_ok": true,
+    "loads_recorded": true,
+    "sha256": "29b9f620c1728069fc2687f8ba26f0b9c770367224a052816c770cefca965867",
+    "envelope_ok": true
+  },
+  "new-contract": {
+    "headings_match": true,
+    "paragraph_counts": [
+      2,
+      2,
+      3
+    ],
+    "paragraph_range_ok": true,
+    "body_han": 1568,
+    "length_ok": true,
+    "fixed_notes_ok": true,
+    "loads_recorded": true,
+    "sha256": "2400a2264d1719fac135e6435b3e94f91ce9e696a453e8c723c42a0e5ec3a08a",
+    "envelope_ok": true
+  },
+  "old-ai": {
+    "headings_match": true,
+    "paragraph_counts": [
+      3,
+      3,
+      3
+    ],
+    "paragraph_range_ok": true,
+    "body_han": 1485,
+    "length_ok": true,
+    "fixed_notes_ok": true,
+    "loads_recorded": true,
+    "sha256": "7e0e733c65e3c23978c278e8d348358d516e512ee9bc76bcf92e4ff8bebc3aac",
+    "envelope_ok": true
+  },
+  "old-contract": {
+    "headings_match": true,
+    "paragraph_counts": [
+      2,
+      2,
+      2
+    ],
+    "paragraph_range_ok": true,
+    "body_han": 1501,
+    "length_ok": true,
+    "fixed_notes_ok": true,
+    "loads_recorded": true,
+    "sha256": "6222df7e7b1dc61b14fc76050bf6c93368e29ec43ac68a7086e60ec8bfe42556",
+    "envelope_ok": true
+  }
+}

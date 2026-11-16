@@ -1,0 +1,293 @@
+{
+  "style_max_per_condition": 96,
+  "quality_max_per_condition": 48,
+  "by_judge": {
+    "judge-a": {
+      "reference_coverage": "三组原文参考均已实际阅读，无读取失败。第一组为2017年本地校准文件中的王利明《论人格权独立成编的理由》与石佳友《人权与人格权的关系》两段；第二组为AI本地校准文件中的王利明《生成式人工智能侵权的归责原则与过错认定》与林洹民《人工智能侵权的过错责任》两段；第三组通过web回读王利明《迈进数字时代的民法》（https://www.aisixiang.com/data/136779.html，段首“我们”）及姚佳《数据要素市场化的法律制度配置》（https://www.aisixiang.com/data/137810.html，段首“中国”）各自摘要关键词之后、首节之前的首个完整自然段。沿用首次校准观察，未读取候选Skill、研究分析、分组映射或其他评审。",
+      "run_totals": {
+        "base-r1": {
+          "style": 36,
+          "quality": 24
+        },
+        "base-r2": {
+          "style": 34,
+          "quality": 24
+        },
+        "style-r1": {
+          "style": 36,
+          "quality": 24
+        },
+        "style-r2": {
+          "style": 39,
+          "quality": 24
+        }
+      },
+      "condition_totals": {
+        "base": {
+          "style": 70,
+          "quality": 48
+        },
+        "style": {
+          "style": 75,
+          "quality": 48
+        }
+      },
+      "preferences": [
+        {
+          "pair": "P01",
+          "case": "S1",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P02",
+          "case": "S2",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P03",
+          "case": "S3",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P04",
+          "case": "S1",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P05",
+          "case": "S4",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P06",
+          "case": "S3",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P07",
+          "case": "S4",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P08",
+          "case": "S2",
+          "result_for_candidate": "tie"
+        }
+      ],
+      "preference_counts": {
+        "win": 3,
+        "tie": 5,
+        "loss": 0,
+        "insufficient": 0
+      }
+    },
+    "judge-b": {
+      "reference_coverage": "三组共六段均已实际回读：本地2017年校准文件中的王利明《论人格权独立成编的理由》与石佳友《人权与人格权的关系》原段；本地AI校准文件中的王利明《生成式人工智能侵权的归责原则与过错认定》与林洹民《人工智能侵权的过错责任》原段；网页成功读取王利明《迈进数字时代的民法》段首‘我们’及姚佳《数据要素市场化的法律制度配置》段首‘中国’的导论首个完整自然段。无网页读取失败。原刊页码、段界等未核部分沿用参考文件的限制，没有补猜。参考包含短篇规范论证、研究问题导入与较长背景展开，逐题考虑了任务与篇幅差异。",
+      "run_totals": {
+        "base-r1": {
+          "style": 39,
+          "quality": 24
+        },
+        "base-r2": {
+          "style": 40,
+          "quality": 24
+        },
+        "style-r1": {
+          "style": 39,
+          "quality": 24
+        },
+        "style-r2": {
+          "style": 41,
+          "quality": 24
+        }
+      },
+      "condition_totals": {
+        "base": {
+          "style": 79,
+          "quality": 48
+        },
+        "style": {
+          "style": 80,
+          "quality": 48
+        }
+      },
+      "preferences": [
+        {
+          "pair": "P01",
+          "case": "S1",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P02",
+          "case": "S2",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P03",
+          "case": "S3",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P04",
+          "case": "S1",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P05",
+          "case": "S4",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P06",
+          "case": "S3",
+          "result_for_candidate": "win"
+        },
+        {
+          "pair": "P07",
+          "case": "S4",
+          "result_for_candidate": "tie"
+        },
+        {
+          "pair": "P08",
+          "case": "S2",
+          "result_for_candidate": "loss"
+        }
+      ],
+      "preference_counts": {
+        "win": 2,
+        "tie": 5,
+        "loss": 1,
+        "insufficient": 0
+      }
+    }
+  },
+  "average_condition_totals": {
+    "base": {
+      "style": 74.5,
+      "quality": 48
+    },
+    "style": {
+      "style": 77.5,
+      "quality": 48
+    }
+  },
+  "case_means_max_style24_quality12": {
+    "S1": {
+      "base": {
+        "style": 17.5,
+        "quality": 12
+      },
+      "style": {
+        "style": 19,
+        "quality": 12
+      }
+    },
+    "S2": {
+      "base": {
+        "style": 19,
+        "quality": 12
+      },
+      "style": {
+        "style": 19,
+        "quality": 12
+      }
+    },
+    "S3": {
+      "base": {
+        "style": 18,
+        "quality": 12
+      },
+      "style": {
+        "style": 19.5,
+        "quality": 12
+      }
+    },
+    "S4": {
+      "base": {
+        "style": 20,
+        "quality": 12
+      },
+      "style": {
+        "style": 20,
+        "quality": 12
+      }
+    }
+  },
+  "pair_results": {
+    "P01": {
+      "case": "S1",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P02": {
+      "case": "S2",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "win",
+        "judge-b": "tie"
+      },
+      "agreement": false
+    },
+    "P03": {
+      "case": "S3",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "win",
+        "judge-b": "tie"
+      },
+      "agreement": false
+    },
+    "P04": {
+      "case": "S1",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "win",
+        "judge-b": "win"
+      },
+      "agreement": true
+    },
+    "P05": {
+      "case": "S4",
+      "round": "2",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P06": {
+      "case": "S3",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "win"
+      },
+      "agreement": false
+    },
+    "P07": {
+      "case": "S4",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "tie"
+      },
+      "agreement": true
+    },
+    "P08": {
+      "case": "S2",
+      "round": "1",
+      "judge_results": {
+        "judge-a": "tie",
+        "judge-b": "loss"
+      },
+      "agreement": false
+    }
+  },
+  "pair_preference_agreement_count": 4,
+  "major_errors": {},
+  "notes": "两名代理对8组对应答案的描述性评价，不作作者识别、百分比相似度或统计显著性解释。"
+}

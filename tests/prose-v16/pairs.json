@@ -1,0 +1,42 @@
+{
+  "P01": {
+    "case": "S1",
+    "left": "Q01",
+    "right": "Q02"
+  },
+  "P02": {
+    "case": "S2",
+    "left": "Q05",
+    "right": "Q10"
+  },
+  "P03": {
+    "case": "S3",
+    "left": "Q07",
+    "right": "Q14"
+  },
+  "P04": {
+    "case": "S1",
+    "left": "Q03",
+    "right": "Q08"
+  },
+  "P05": {
+    "case": "S4",
+    "left": "Q12",
+    "right": "Q15"
+  },
+  "P06": {
+    "case": "S3",
+    "left": "Q04",
+    "right": "Q13"
+  },
+  "P07": {
+    "case": "S4",
+    "left": "Q16",
+    "right": "Q11"
+  },
+  "P08": {
+    "case": "S2",
+    "left": "Q09",
+    "right": "Q06"
+  }
+}

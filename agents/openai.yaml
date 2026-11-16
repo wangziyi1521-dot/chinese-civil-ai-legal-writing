@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文法学学术写作"
+  short_description: "以三类可追溯资料支持中文民法与AI论文的分析、框架、起草、修改、审稿及引注核验"
+  default_prompt: "使用 $chinese-legal-academic-writing 梳理论文的规范争点，并为每节提纲列出必须证明的命题和需要核查的材料。"

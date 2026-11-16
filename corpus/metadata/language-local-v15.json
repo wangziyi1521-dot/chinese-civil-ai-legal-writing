@@ -1,0 +1,786 @@
+{
+  "methods": {
+    "tokenizer": "Han unigram + ASCII alphanumeric run",
+    "group_by": "paper",
+    "regions": [
+      "body",
+      "conclusion",
+      "introduction"
+    ],
+    "headings_included": false,
+    "quality_filter": "high_or_medium",
+    "token_rate_denominator": "token units",
+    "connector_rate_denominator": "Han characters",
+    "length_unit": "Han characters and ASCII alphanumeric characters excluding punctuation",
+    "sentence_boundaries": "。！？!?，连续省略号及段末；分号不切分",
+    "limit": "字符串匹配未做词义判定。分层、长度、主题和期刊差异须复核；统计量不是作者指纹。"
+  },
+  "status": "descriptive_only",
+  "samples": [
+    {
+      "id": "WL-L-07",
+      "period": "recent",
+      "venue": "法学家",
+      "corpus_role": "target",
+      "authorship": "solo",
+      "topics": [
+        "人格权",
+        "动态系统论",
+        "侵权责任"
+      ],
+      "quality": "medium",
+      "source_sha256": "0be67015a7dcd8a9cc1b636303a8828cf5a75d5285fe1a5b178bd0d92cc292de",
+      "source_url": "https://faxuejia.ruc.edu.cn/CN/PDF/2867",
+      "headings": [
+        {
+          "block_id": "p00002",
+          "page": 1,
+          "region": "body",
+          "printed_page": "1"
+        },
+        {
+          "block_id": "p00009",
+          "page": 3,
+          "region": "body",
+          "printed_page": "3"
+        },
+        {
+          "block_id": "p00011",
+          "page": 4,
+          "region": "body",
+          "printed_page": "4"
+        },
+        {
+          "block_id": "p00013",
+          "page": 4,
+          "region": "body",
+          "printed_page": "4"
+        },
+        {
+          "block_id": "p00015",
+          "page": 4,
+          "region": "body",
+          "printed_page": "4"
+        },
+        {
+          "block_id": "p00019",
+          "page": 5,
+          "region": "body",
+          "printed_page": "5"
+        },
+        {
+          "block_id": "p00030",
+          "page": 8,
+          "region": "body",
+          "printed_page": "8"
+        },
+        {
+          "block_id": "p00033",
+          "page": 8,
+          "region": "body",
+          "printed_page": "8"
+        },
+        {
+          "block_id": "p00034",
+          "page": 8,
+          "region": "body",
+          "printed_page": "8"
+        },
+        {
+          "block_id": "p00038",
+          "page": 9,
+          "region": "body",
+          "printed_page": "9"
+        },
+        {
+          "block_id": "p00045",
+          "page": 10,
+          "region": "body",
+          "printed_page": "10"
+        },
+        {
+          "block_id": "p00047",
+          "page": 10,
+          "region": "body",
+          "printed_page": "10"
+        },
+        {
+          "block_id": "p00051",
+          "page": 11,
+          "region": "body",
+          "printed_page": "11"
+        },
+        {
+          "block_id": "p00054",
+          "page": 11,
+          "region": "body",
+          "printed_page": "11"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "WL-E-01",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-02",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-04",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-05",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-06",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-V12-E-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-07",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-08",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-09",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-10",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-11",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-12",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-13",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-14",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V11-E-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-22",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V12-E-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-23",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V11-E-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V11-E-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-15",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-16",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-V12-M-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V11-M-90",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-17",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V12-M-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-18",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-19",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-M-04",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-14",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-E-20",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-E-21",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-01",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-M-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-M-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-04",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-M-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V12-M-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-B-01",
+      "reason": "not_confirmed_journal_article"
+    },
+    {
+      "id": "WL-L-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-14",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-16",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-04",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-05",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-06",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-B-02",
+      "reason": "not_confirmed_journal_article"
+    },
+    {
+      "id": "WL-D-09",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-12",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-15",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-B-03",
+      "reason": "not_confirmed_journal_article"
+    },
+    {
+      "id": "WL-D-02",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-03",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-08",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-13",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-V12-R-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-B-04",
+      "reason": "not_confirmed_journal_article"
+    },
+    {
+      "id": "WL-D-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-07",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-11",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-L-09",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-A25-01",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-A25-02",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-03",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-04",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-A25-05",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-06",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-07",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-A25-08",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-09",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-A25-10",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-11",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-A25-12",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-06",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-10",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-L-11",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-05",
+      "reason": "no_local_index"
+    },
+    {
+      "id": "WL-D-08",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-D-13",
+      "reason": "catalog_fulltext_not_available"
+    },
+    {
+      "id": "WL-L-12",
+      "reason": "catalog_fulltext_not_available"
+    }
+  ],
+  "groups": [
+    {
+      "corpus_role": "target",
+      "label": "WL-L-07",
+      "papers": 1,
+      "paper_ids": [
+        "WL-L-07"
+      ],
+      "han_characters": 13255,
+      "token_units": 13304,
+      "sentence_length": {
+        "count": 299,
+        "mean": 44.85,
+        "median": 40,
+        "min": 1,
+        "p10_nearest_rank": 17,
+        "p90_nearest_rank": 78,
+        "max": 146
+      },
+      "paragraph_length": {
+        "count": 45,
+        "mean": 298.02,
+        "median": 257,
+        "min": 2,
+        "p10_nearest_rank": 46,
+        "p90_nearest_rank": 549,
+        "max": 1061
+      },
+      "top_token_units": [
+        {
+          "value": "的",
+          "count": 663,
+          "papers": 1,
+          "per_10000": 498.346
+        },
+        {
+          "value": "权",
+          "count": 243,
+          "papers": 1,
+          "per_10000": 182.652
+        },
+        {
+          "value": "人",
+          "count": 242,
+          "papers": 1,
+          "per_10000": 181.9
+        },
+        {
+          "value": "法",
+          "count": 210,
+          "papers": 1,
+          "per_10000": 157.847
+        },
+        {
+          "value": "是",
+          "count": 194,
+          "papers": 1,
+          "per_10000": 145.821
+        },
+        {
+          "value": "在",
+          "count": 180,
+          "papers": 1,
+          "per_10000": 135.298
+        },
+        {
+          "value": "因",
+          "count": 176,
+          "papers": 1,
+          "per_10000": 132.291
+        },
+        {
+          "value": "行",
+          "count": 168,
+          "papers": 1,
+          "per_10000": 126.278
+        },
+        {
+          "value": "为",
+          "count": 155,
+          "papers": 1,
+          "per_10000": 116.506
+        },
+        {
+          "value": "要",
+          "count": 154,
+          "papers": 1,
+          "per_10000": 115.755
+        },
+        {
+          "value": "定",
+          "count": 149,
+          "papers": 1,
+          "per_10000": 111.996
+        },
+        {
+          "value": "格",
+          "count": 125,
+          "papers": 1,
+          "per_10000": 93.957
+        }
+      ],
+      "connector_matches": [
+        {
+          "value": "例如",
+          "count": 27,
+          "papers": 1,
+          "per_10000": 20.37,
+          "category_hint": "归结或说明"
+        },
+        {
+          "value": "但是",
+          "count": 17,
+          "papers": 1,
+          "per_10000": 12.825,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "如果",
+          "count": 16,
+          "papers": 1,
+          "per_10000": 12.071,
+          "category_hint": "条件或限定"
+        },
+        {
+          "value": "因此",
+          "count": 14,
+          "papers": 1,
+          "per_10000": 10.562,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "因为",
+          "count": 12,
+          "papers": 1,
+          "per_10000": 9.053,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "同时",
+          "count": 8,
+          "papers": 1,
+          "per_10000": 6.035,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "一方面",
+          "count": 7,
+          "papers": 1,
+          "per_10000": 5.281,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "从而",
+          "count": 7,
+          "papers": 1,
+          "per_10000": 5.281,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "另一方面",
+          "count": 7,
+          "papers": 1,
+          "per_10000": 5.281,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "尤其",
+          "count": 7,
+          "papers": 1,
+          "per_10000": 5.281,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "也就是说",
+          "count": 5,
+          "papers": 1,
+          "per_10000": 3.772,
+          "category_hint": "归结或说明"
+        },
+        {
+          "value": "因而",
+          "count": 5,
+          "papers": 1,
+          "per_10000": 3.772,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "所以",
+          "count": 5,
+          "papers": 1,
+          "per_10000": 3.772,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "只有",
+          "count": 4,
+          "papers": 1,
+          "per_10000": 3.018,
+          "category_hint": "条件或限定"
+        },
+        {
+          "value": "而且",
+          "count": 4,
+          "papers": 1,
+          "per_10000": 3.018,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "通常",
+          "count": 4,
+          "papers": 1,
+          "per_10000": 3.018,
+          "category_hint": "条件或限定"
+        },
+        {
+          "value": "由此可见",
+          "count": 3,
+          "papers": 1,
+          "per_10000": 2.263,
+          "category_hint": "因果或推导"
+        },
+        {
+          "value": "不仅",
+          "count": 2,
+          "papers": 1,
+          "per_10000": 1.509,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "即使",
+          "count": 2,
+          "papers": 1,
+          "per_10000": 1.509,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "换言之",
+          "count": 2,
+          "papers": 1,
+          "per_10000": 1.509,
+          "category_hint": "归结或说明"
+        },
+        {
+          "value": "由此",
+          "count": 2,
+          "papers": 1,
+          "per_10000": 1.509,
+          "category_hint": "归结或说明"
+        },
+        {
+          "value": "进一步",
+          "count": 2,
+          "papers": 1,
+          "per_10000": 1.509,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "不但",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "不过",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "具体而言",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "归结或说明"
+        },
+        {
+          "value": "即便",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "反之",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "在一定程度上",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "条件或限定"
+        },
+        {
+          "value": "并且",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "此外",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "相反",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "转折或让步"
+        },
+        {
+          "value": "进而",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "递进或并列"
+        },
+        {
+          "value": "鉴于",
+          "count": 1,
+          "papers": 1,
+          "per_10000": 0.754,
+          "category_hint": "因果或推导"
+        }
+      ]
+    }
+  ],
+  "term_matches": []
+}

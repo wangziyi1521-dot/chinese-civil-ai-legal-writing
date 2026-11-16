@@ -1,0 +1,26 @@
+{
+  "candidate-a": {
+    "han": 538,
+    "paragraphs": 1,
+    "body_sha256": "2861fc3d80651670413ec6fcfdd5e00836af24aee6024bbeba85950be510d65b",
+    "loads_sha256": "122ab82f1819677ca6be381c78a4b9712d04d2759e91276e755433bfc6777478"
+  },
+  "candidate-b": {
+    "han": 536,
+    "paragraphs": 1,
+    "body_sha256": "955b68223af0ed24784f7133d199194b9aa64c99a5271703cc32228a61e62656",
+    "loads_sha256": "f77abe00f8b08fe15aaffc9ccba0559046259088cb44995be44db7e1e2aa89e8"
+  },
+  "baseline-a": {
+    "han": 548,
+    "paragraphs": 1,
+    "body_sha256": "ec42f2086d747d1abac381601a9c4602ea357d0733bd27bc5132a3526d3fc7e5",
+    "loads_sha256": "f85772a47d71ddf7a704ab001e83deee266d1d70f6325c49bb52440db4021ea4"
+  },
+  "baseline-b": {
+    "han": 543,
+    "paragraphs": 1,
+    "body_sha256": "acce3ea1d663c1713f3dfb566727c90957c3a4839c688bad0740ca0ca53426b0",
+    "loads_sha256": "f98444a67e514377f807d1cf68e780bb3b866ecb2e428819c3321aa936ceeb17"
+  }
+}

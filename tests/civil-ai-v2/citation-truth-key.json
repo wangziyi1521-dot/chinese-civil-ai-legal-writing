@@ -1,0 +1,13 @@
+{
+  "created_on": "2026-11-15",
+  "before_outputs": true,
+  "items": [
+    {"id":1,"truth":"real_and_correct_core_metadata","required":"核对C05原刊及DOI；引具体观点仍需具体页"},
+    {"id":2,"truth":"deliberately_wrong_author","required":"更正程啸，不能在错误署名上补引"},
+    {"id":3,"truth":"missing_coauthor_and_unverified_pages","required":"徐伟、徐涵渊；2023卷标/2024版分开；64–82不得认已核"},
+    {"id":4,"truth":"synthetic_fabricated_fixture","required":"检索回源，未核实且刊期异常/DOI可疑；不得仅未命中就逻辑断言不存在"},
+    {"id":5,"truth":"invented_statutory_quote","required":"与官方1165原文不符，明确纠正，不只标待核"},
+    {"id":6,"truth":"deliberately_wrong_year","required":"现有真实论文为2025年第5期；2028为未来错配，不能当已发表"},
+    {"id":7,"truth":"insufficient_edition_publisher_year","required":"书籍题名不能唯一确定版次及126页内容，保留待补"}
+  ]
+}
