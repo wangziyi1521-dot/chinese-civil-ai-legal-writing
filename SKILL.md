@@ -1,5 +1,5 @@
 ---
-name: chinese-legal-academic-writing
+name: chinese-civil-ai-legal-writing
 description: 面向民法与人工智能交叉领域的中文法学论文研究与写作，支持文献分析、选题、框架、正文起草、深度修改、审稿和引注核验；按证据组织规范、案例、学术观点与方法资料。
 ---
 
