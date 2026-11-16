@@ -15,11 +15,11 @@ description: 面向民法与人工智能交叉领域的中文法学论文研究�
 
 AI侵权研究先从 [十专题入口](references/ai-tort-topics/index.md) 选择直接相关的1—2项，再用 [文献与证据索引](references/literature-index/index.md) 回到原分析及真实覆盖范围。专题提供截至核验日的研究起点；提出当前法结论时须重新核查变化，特别是2026年最高法涉AI意见。资料不足时完成可独立成立的部分，把缺项放在相应推理处。
 
-写作观察见 [王利明](references/scholars/wang-liming.md)，教义学方法见 [程啸](references/scholars/cheng-xiao.md)、[林洹民](references/scholars/lin-huanmin.md) 及 [方法工具](references/doctrinal-methods/operations.md)。AI观点按专题查找，作者入口见 [学者与角色](references/scholars/index.md)。只读当前环节需要的模块。
+写作观察、教义学方法和 AI 争议资料的角色见[学者与资料索引](references/scholars/index.md)，方法操作见[方法工具](references/doctrinal-methods/operations.md)。按当前任务读取相关模块。
 
 ## 选择方法
 
-需要迁移既有王利明论文的论证步骤时，按 [方法检索](references/method-retrieval.md) 从旧争点索引选择1—2张相关卡，保留卡ID、发表语境、适用及不适用部分；新18篇资料用 `scripts/literature_lookup.py` 按编号、作者或证据等级定位。已有直接相关材料时不强配旧卡。方法卡不能替代现行法或正式引注核验。
+需要迁移既有论文的论证步骤时，按 [方法检索](references/method-retrieval.md) 从旧争点索引选择1—2张相关卡，保留卡ID、发表语境、适用及不适用部分；新18篇资料用 `scripts/literature_lookup.py` 按编号、作者或证据等级定位。已有直接相关材料时不强配旧卡。方法卡不能替代现行法或正式引注核验。
 
 ## 写作与核验
 
