@@ -1,15 +1,15 @@
 # 民法与 AI 交叉领域法学写作 Skill
 
-面向民法与人工智能交叉问题的中文学术研究与写作，支持文献分析、选题、论证框架、正文起草与修改、审稿及引注核验。在 Codex 输入 `$chinese-legal-academic-writing`，接上任务和现有材料；也可用中文说明任务。版本 2.0.0，升级核验于2026-11-15至16日。保留原51篇方法卡与旧检索能力，新增三类资料分工、18篇候选证据台账、10篇正文分析及十个AI侵权专题。
+面向民法与人工智能交叉问题的中文学术研究与写作，支持文献分析、选题、论证框架、正文起草与修改、审稿及引注核验。在 Codex 输入 `$chinese-civil-ai-legal-writing`，接上任务和现有材料；也可用中文说明任务。版本 2.0.0，升级核验于2026-11-15至16日。保留原51篇方法卡与旧检索能力，新增三类资料分工、18篇候选证据台账、10篇正文分析及十个AI侵权专题。
 
 ## 调用例子
 
-1. `$chinese-legal-academic-writing` 我想从零写一篇关于数据共享责任的法学论文。先从给定规范和三条材料提炼问题、中心命题和章节框架。
-2. `$chinese-legal-academic-writing` 深度修改这篇侵权法论文。先指出论证缺口，正文只修我标出的两段，保留实体观点。
-3. `$chinese-legal-academic-writing` 分析这篇新论文的论证结构，逐节标出命题、反方、证据与原刊位置。
-4. `$chinese-legal-academic-writing` 审查第二节论证，区分规范前提、因果推断和价值选择，提出可直接替换的段落。
-5. `$chinese-legal-academic-writing` 按我上传的期刊体例核这几条脚注，分别检查题录、页码和正文命题支持。
-6. `$chinese-legal-academic-writing` 我补充一篇论文的原刊 PDF。核对作者、版本和来源后更新分析卡；全文只保存在我指定的私有目录。
+1. `$chinese-civil-ai-legal-writing` 我想从零写一篇关于数据共享责任的法学论文。先从给定规范和三条材料提炼问题、中心命题和章节框架。
+2. `$chinese-civil-ai-legal-writing` 深度修改这篇侵权法论文。先指出论证缺口，正文只修我标出的两段，保留实体观点。
+3. `$chinese-civil-ai-legal-writing` 分析这篇新论文的论证结构，逐节标出命题、反方、证据与原刊位置。
+4. `$chinese-civil-ai-legal-writing` 审查第二节论证，区分规范前提、因果推断和价值选择，提出可直接替换的段落。
+5. `$chinese-civil-ai-legal-writing` 按我上传的期刊体例核这几条脚注，分别检查题录、页码和正文命题支持。
+6. `$chinese-civil-ai-legal-writing` 我补充一篇论文的原刊 PDF。核对作者、版本和来源后更新分析卡；全文只保存在我指定的私有目录。
 
 [Skill 入口](SKILL.md) · [语料目录](references/corpus-catalog.md) · [写作模型](references/evidence-register.md) · [更新语料](references/research-methodology.md) · [本轮验收](tests/civil-ai-v2/index.md) · [旧测试记录](tests/evaluation.md)
 
